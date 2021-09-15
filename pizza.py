@@ -13,11 +13,13 @@ def main():
     # this function calculates price
 
     # input
-    diameter = int(input("Enter diameter of the Pizza (inches): "))
+    diameter = int(
+        input("Enter the diameter of the pizza you would " + "like (inch): ")
+    )
 
     # process
     sub_total = (
-        constants.LABOR + constants.RENT + (constants.COST_PER_INCH * diameter)
+        constants.LABOR + constants.RENT + (diameter * constants.COST_PER_INCH)
     )
     total = sub_total + (sub_total * constants.HST)
 
