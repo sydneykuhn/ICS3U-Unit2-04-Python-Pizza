@@ -3,7 +3,7 @@
 # Created by: Sydney Kuhn
 # Created on: Sep 2020
 # This program calculates the price of a pizza
-#    using the diameter provided by user
+#    using the diameter provided by the user
 
 import constants
 
